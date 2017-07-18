@@ -1,0 +1,56 @@
+body {
+	background: url(https://apod.nasa.gov/apod/image/1510/M16HubbleV4-X3walker.jpg);
+	max-width: 980px;
+	margin: auto;
+	width: 100%;
+	color: #ffffff;
+	font-family: 'Lemonada', cursive;
+	font-weight: bolder;
+	text-shadow: 2px 2px #3661e2;
+}
+
+h1 {
+	width: 100%;
+	margin-left: 5px;
+	font-size: 45px;
+	text-align: center;
+}
+
+#instructions {
+	padding: 0px 5px 0px 5px;
+	width: 100%;
+	border: 4px dotted;
+	font-size: 16px;
+}
+
+#wins, #losses {
+	display: inline-block;
+	width: 45%;
+	font-size: 30px;
+	text-align: center;
+}
+
+#gems {
+	margin-left: 15%;
+}
+#blue, #green {
+	width: 15%;
+}
+
+#red, #orange {
+	width: 20%;
+}
+
+#randomNumber {
+	display: inline-flex;
+	width: 45%;
+	padding: 20px;
+	font-size: 30px;
+}
+
+#totalScore {
+	display: inline-block;
+	padding: 20px;
+	margin-top: 10px;
+	font-size: 30px;
+}
