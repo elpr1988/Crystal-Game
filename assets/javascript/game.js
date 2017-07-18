@@ -50,6 +50,7 @@ function reset() {
 	red =	Math.floor((Math.random()*12) + 1);
 	green = Math.floor((Math.random()*12) + 1);
 	totalScore = 0;
+	$("#totalScore").text("Your total score is: " + totalScore);
 
 
 }
