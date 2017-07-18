@@ -10,6 +10,7 @@ var totalScore = 0;
 $(document).ready(function() {
 
 $("#randomNumber").text("Random Number is: " + randomNumber);
+$("#totalScore").text("Your total score is: " + totalScore);
 
 	$("#blue").on("click", function(){
 		totalScore = totalScore + blue;
